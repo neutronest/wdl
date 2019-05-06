@@ -27,12 +27,12 @@ import sys
 from absl import app as absl_app
 from absl import flags
 
-from official.utils.flags import _base
-from official.utils.flags import _benchmark
-from official.utils.flags import _conventions
-from official.utils.flags import _device
-from official.utils.flags import _misc
-from official.utils.flags import _performance
+from wdl.official.utils.flags import _base
+from wdl.official.utils.flags import _benchmark
+from wdl.official.utils.flags import _conventions
+from wdl.official.utils.flags import _device
+from wdl.official.utils.flags import _misc
+from wdl.official.utils.flags import _performance
 
 
 def set_defaults(**kwargs):

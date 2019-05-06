@@ -10,7 +10,7 @@
    from absl import app as absl_app
    from absl import flags
 
-   from official.utils.flags import core as flags_core
+   from wdl.official.utils.flags import core as flags_core
 
 
    def define_flags():
